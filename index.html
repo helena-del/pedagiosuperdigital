@@ -1,1 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Pneus Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #111;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 10px;
+            text-decoration: none;
+        }
+        .banner {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center;
+            background-size: cover;
+            height: 300px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .produtos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .produto {
+            background: #fff;
+            padding: 15px;
+            width: 250px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .produto img {
+            width: 100%;
+        }
+        .produto button {
+            background: #28a745;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            width: 100%;
+        }
+        footer {
+            background: #111;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
 
+<header>
+    <h1>Loja de Pneus</h1>
+    <p>Os melhores pneus pelo melhor preço</p>
+</header>
+
+<nav>
+    <a href="#">Início</a>
+    <a href="#">Produtos</a>
+    <a href="#">Contato</a>
+</nav>
+
+<div class="banner"></div>
+
+<div class="container">
+    <h2>Produtos em Destaque</h2>
+    <div class="produtos">
+
+        <div class="produto">
+            <img src="https://via.placeholder.com/250" alt="Pneu 1">
+            <h3>Pneu Aro 15</h3>
+            <p>R$ 299,90</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="produto">
+            <img src="https://via.placeholder.com/250" alt="Pneu 2">
+            <h3>Pneu Aro 16</h3>
+            <p>R$ 349,90</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="produto">
+            <img src="https://via.placeholder.com/250" alt="Pneu 3">
+            <h3>Pneu SUV</h3>
+            <p>R$ 499,90</p>
+            <button>Comprar</button>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Loja de Pneus - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
